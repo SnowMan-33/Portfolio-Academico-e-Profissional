@@ -11,7 +11,7 @@
             <h3> Starter Dev. - Full Stack - </h3>
             <ul>
                 <li><a href="#biografia"> Biografia</a> </li>
-                <li><a href="#contato"> Contato</a> </li>
+                <li><a href="#contato"> Contatos</a> </li>
             </ul>
         </header>
         <hr>
@@ -19,13 +19,11 @@
             <img src= "images/eu_edit.png" alt= "Foto de perfil" width= "200" height= "250">
             <section id="biografia">
                 <h2> Biografia </h2>
-                    <p>Graduando do curso de bacharelado em <strong>Tecnologia em Sistemas para Internet</strong>
-                        na <u>Universidade do Estado do Rio Grande do Norte (UERN - Campus Apodi).</u><br> 
-                        Desenvolvedor Junior <strong>Full Stack</strong>.<br><strong>Atirador da Reserva</strong> de 2&ordf; 
-                        categoria do <u>Exército Brasileiro.</u><br>Sócio da instituição educacional de ensino de redação 
-                        "Redação Personalíssima" e atual assistente administrativo da empresa "Modulo Curso Preparatório".<br>
-                        <strong>Interesses:</strong><br> - Aperfeiçoar minhas habilidades em desenvolvimento <em>web</em> e suas aplicações;<br> 
-                        - Desenvolver meus conhecimentos de gestão de banco de dados.
+                    <p>Graduando do curso de bacharelado em <strong>Tecnologia em Sistemas para Internet</strong> na <u>Universidade do Estado do Rio Grande do Norte 
+                        (UERN - Campus Apodi).</u><br> Desenvolvedor Junior <strong>Full Stack</strong>.<br><strong>Atirador da Reserva</strong> de 2&ordf; categoria 
+                        do <u>Exército Brasileiro.</u><br>Sócio da instituição educacional de ensino de redação "Redação Personalíssima" e atual assistente administrativo 
+                        da empresa "Modulo Curso Preparatório".<br><strong>Interesses:</strong><br> - Aperfeiçoar minhas habilidades em desenvolvimento <em>web</em> e suas 
+                        aplicações;<br> - Desenvolver meus conhecimentos de gestão de banco de dados.
                     </p>
             </section>
         </main>
@@ -47,6 +45,15 @@
                             </tr>
                         </tbody>
                     </table>
+                    <form action="/salvar" method="POST">
+                        <fieldset>
+                            <legend>Me contate de forma mais prática</legend>
+                            <label for="nome"> Nome: </label>   
+                                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo"> <br>
+                            <label for="email"> E-mail: </label>
+                                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                        </fieldset>
+                    </form>
             </section>
         </footer>
     </body>    
