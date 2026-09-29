@@ -4,6 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfólio Acadêmico & Profissional - Yago Melo Marques</title>        
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+            }
+            table{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            td{
+                border: 1px solid black;
+            }
+        </style>
     </head>
 
     <body>
@@ -51,11 +63,16 @@
                         <fieldset>
                             <legend>Me contate de forma mais prática</legend>
                             <label for="nome"> Nome: </label>   
-                                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required> <br>
+                                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required minlength="3" maxlength="50"><br>
                             <label for="email"> E-mail: </label>
-                                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required> <br>
+                                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required minlength="11" maxlength="40"> <br>
                             <label for="mensagem" > Qual o motivo de seu contato? </label> <br>
-                            <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite sua mensagem" required></textarea> <br>
+                                <select id="opções_contato"> 
+                                    <option>Trabalho</option>
+                                    <option>Dúvida Acadêmica</option>
+                                    <option>Sugestão</option>
+                                </select> <br>
+                            <textarea name="mensagem" id="mensagem" cols="32" rows="5" placeholder="Outro motivo? Digite sua mensagem" required minlength="11" maxlength="500"></textarea>
                         </fieldset>
                         <button type="submit">Enviar</button>
                     </form>
