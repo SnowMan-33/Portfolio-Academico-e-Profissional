@@ -22,12 +22,14 @@
         <header>
             <h1><u>Portfólio Acadêmico & Profissional</u></h1>
             <h1> Yago Melo Marques </h1>
-            <h3> Starter Dev. - Full Stack - </h3>
-            <ul>
-                <li><a href="#biografia"> Biografia</a> </li>
-                <li><a href="#horario"> Horários disponíveis</a> </li>
-                <li><a href="#contato"> Contatos</a> </li>
-            </ul>
+            <h3> Starter Developer - Full Stack - </h3>
+            <nav>
+                <ul>
+                    <li><a href="#biografia"> Biografia</a> </li>
+                    <li><a href="#horario"> Horários disponíveis</a> </li>
+                    <li><a href="#contato"> Contatos</a> </li>
+                </ul>
+            </nav>
         </header>
         <hr>
         <main>
@@ -40,6 +42,7 @@
                         da empresa "Modulo Curso Preparatório".<br><strong>Interesses:</strong><br> - Aperfeiçoar minhas habilidades em desenvolvimento <em>web</em> e suas 
                         aplicações;<br> - Desenvolver meus conhecimentos de gestão de banco de dados.
                     </p>
+            </section>
             <section id="horario">
                 <table>
                     <thead>
@@ -113,7 +116,7 @@
                             <label for="email"> E-mail: </label>
                                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required minlength="11" maxlength="40"> <br>
                             <label for="mensagem" > Qual o motivo de seu contato? </label> <br>
-                                <select id="opções_contato"> 
+                                <select id="opções_contato" name="opções_contato" required> 
                                     <option>Trabalho</option>
                                     <option>Dúvida Acadêmica</option>
                                     <option>Sugestão</option>
