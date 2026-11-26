@@ -1,4 +1,4 @@
-// Função que valida o formulário de contato
+
 function validarContato(dados) {
   const erros = [];
 
